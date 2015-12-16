@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4b0c402af95ca3c7c40f91f22c9a1912",
+    "hash": "c0917ac0ca7c34dcea284918ba2e0440",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -537,6 +537,63 @@
             "time": "2015-10-14 14:09:13"
         },
         {
+            "name": "laravelcollective/html",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "4c9b44a817543bd0ef7f0ca8c8a63e5556504274"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/4c9b44a817543bd0ef7f0ca8c8a63e5556504274",
+                "reference": "4c9b44a817543bd0ef7f0ca8c8a63e5556504274",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.2.*",
+                "illuminate/routing": "5.2.*",
+                "illuminate/session": "5.2.*",
+                "illuminate/support": "5.2.*",
+                "illuminate/view": "5.2.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "illuminate/database": "5.2.*",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "time": "2015-12-02 08:15:22"
+        },
+        {
             "name": "league/flysystem",
             "version": "1.0.15",
             "source": {
@@ -1048,7 +1105,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/b3fdb17647dbabe5abf987b6798397c7490677d2",
+                "url": "https://api.github.com/repos/symfony/console/zipball/ff96711b696b2f6ee7cb8a0f0348084709207138",
                 "reference": "574295690ac114f125972321a2db919c73467c16",
                 "shasum": ""
             },
@@ -1154,7 +1211,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/386346c51b3b7be4e5c1a97246c70d952734fa39",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/eed2454e77eb5fb2ef0db48428da0926b8460fb2",
                 "reference": "386346c51b3b7be4e5c1a97246c70d952734fa39",
                 "shasum": ""
             },
@@ -1260,7 +1317,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/d60ecd95ebce756122d9364714d3e2460e7f2894",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/ae978c6a5289e42111b2fadd38fb0b53f772cd66",
                 "reference": "110aca14f1c01c919ad5244abd8aadada1f4602b",
                 "shasum": ""
             },
@@ -1317,7 +1374,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/ec67ae3149ee985775a374c6ae1a1f58013e9671",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/f3a70b02456bb0e0dd12a0159cea2f3ad7bcb2c3",
                 "reference": "ec67ae3149ee985775a374c6ae1a1f58013e9671",
                 "shasum": ""
             },
@@ -1363,7 +1420,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/da3b0b113d0cd1c3a63b7240a31b49aa987e1a65",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/b0ce2eabfbe3e64d14e21073ac1efc654a42ab38",
                 "reference": "104c8d7279cee825645b751388dd0ae01f665594",
                 "shasum": ""
             },
@@ -1415,7 +1472,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/71cc4c9234e5a5d5702bb30811d7574fcc35260a",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/efeb0312a80bdf16b35ffca9427ad640b674f64b",
                 "reference": "8096996ca9869a0808c8b236daea22095468fb61",
                 "shasum": ""
             },
@@ -1611,7 +1668,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/bb832748275919aeae43455d9a25fa1e5ece1cc8",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/2bda1138cccb5ad1295cd09de37dc189ff05f368",
                 "reference": "e7c5fcb19d991da3894858bb4d4775be57094eda",
                 "shasum": ""
             },
@@ -1671,7 +1728,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/7fcbcf06b00ffae0d48c89bfb61b06d87ca2f0b9",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/14ed95dc176e56b2258fea3deb936b9488de1dbe",
                 "reference": "7ea1039d1abd76eb7e0a413ca90b123edf714b84",
                 "shasum": ""
             },
@@ -2885,7 +2942,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "illuminate/html": 20
+        "illuminate/html": 20,
+        "laravelcollective/html": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
