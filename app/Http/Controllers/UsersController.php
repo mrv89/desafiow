@@ -39,7 +39,20 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //¡¡¡¡¡CODIGO TEMPORAL!!!!!
+        $new_user = $request->all() ;
+
+        $password = $new_user['password'];
+
+        $password = bcrypt($password);
+
+        $new_user['password'] = $password;
+
+        User::create( $new_user );
+        //¡¡¡¡¡TEMPORAL!!!!!
+        return redirect('usuarios');
+
+
     }
 
     /**

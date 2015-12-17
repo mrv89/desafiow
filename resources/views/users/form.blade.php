@@ -36,6 +36,15 @@
 
 <div class="large-12 columns">
 
+	{!! Form::label('password', 'Password' ) !!}
+	{!! Form::password('password', null, ['class' => 'input'] ) !!}
+		
+</div><!-- /large-6 -->	
+
+
+
+<div class="large-12 columns">
+
 	<hr>
 
 	{!! Form::submit($buttonText, ['class' => 'button small']) !!}
