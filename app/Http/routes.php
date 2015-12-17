@@ -11,7 +11,7 @@
 |
 */
 Route::get('/', function(){
-	return "return home view here";
+	
 });
 
 /* TODO DESAFIOS */
