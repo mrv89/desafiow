@@ -3,10 +3,11 @@
 @section('content')
 
 <div class="large-12 columns">
-	
-	<h3>Login</h3>				
+	<div style="width:400px;margin:150px auto;background:#fff;border:1px solid #ccc;">
+	<h1 style="background:#ccc;"><img src="{{ asset('/img/logo.png') }}" alt="DesafioW"></h1>
+	<h3 style="padding:10px;margin:0;font-family:'Open Sans';border-bottom:1px solid #efefef;">Login</h3>				
 
-	<form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/login') }}">
+	<form style="padding:10px;" class="form-horizontal" role="form" method="POST" action="{{ url('/auth/login') }}">
 		<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 		<div class="form-group">
@@ -41,6 +42,8 @@
 			</div>
 		</div>
 	</form>
+
+	</div>
 
 	@if (count($errors) > 0)
 		<div class="alert alert-danger">

@@ -24,15 +24,6 @@
 
 	<body>
 
-	<div class="row row-full" style="background-color:#fff;">
-
-      <div class="large-12 columns">
-        
-        <h1><img src="{{ asset('/img/logo.png') }}" alt="DesafioW"></h1>
-      
-      </div><!-- /large-3 -->   
-    
-    </div><!-- /row -->
 
 	<div class="row row-full">
 		@yield('content')
